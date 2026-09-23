@@ -1,5 +1,5 @@
 {
-  "name": "hostRsbuild",
+  "name": "host",
   "private": true,
   "version": "1.0.0",
   "scripts": {

@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router';
-import Dashboard from 'dashboard';
-import Provider from 'provider';
+import Listings from 'listings';
+import SavedHomes from 'savedHomes';
 import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
@@ -9,12 +9,12 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Listings />} />
         <Route
           path="/saved-homes"
           element={
             <div className="content">
-              <Provider />
+              <SavedHomes />
             </div>
           }
         />

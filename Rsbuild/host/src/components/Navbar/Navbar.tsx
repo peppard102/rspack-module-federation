@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import { NavLink } from 'react-router';
 
 const navItems = [
-  { to: '/', label: 'Home' },
+  { to: '/', label: 'Listings' },
   { to: '/saved-homes', label: 'Saved Homes' },
 ];
 
