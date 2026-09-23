@@ -1,12 +1,8 @@
 import './App.css';
-import Provider from './components/ProviderComponent';
+import MapComponent from './components/MapComponent';
 
 const App = () => {
-  return (
-    <div className="content">
-      <Provider />
-    </div>
-  );
+  return <MapComponent />;
 };
 
 export default App;
