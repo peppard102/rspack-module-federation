@@ -1,5 +1,5 @@
 {
-  "name": "remote-rsbuild",
+  "name": "hostRsbuild",
   "private": true,
   "version": "1.0.0",
   "scripts": {
