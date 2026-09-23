@@ -12,7 +12,8 @@
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^9.4.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-router": "^8.4.0"
   },
   "devDependencies": {
     "@module-federation/rsbuild-plugin": "^2.9.1",
