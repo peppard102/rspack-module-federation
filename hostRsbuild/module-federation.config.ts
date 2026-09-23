@@ -4,6 +4,7 @@ export default createModuleFederationConfig({
   name: 'hostRsbuild',
   remotes: {
     provider: 'rslib_provider@http://localhost:3001/mf-manifest.json',
+    dashboard: 'dashboard@http://localhost:3002/mf-manifest.json',
   },
   shareStrategy: 'loaded-first',
   shared: {

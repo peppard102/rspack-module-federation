@@ -1,11 +1,15 @@
 import './App.css';
 import Provider from 'provider';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
-    <div className="content">
-      <Provider />
-    </div>
+    <>
+      <Navbar />
+      <div className="content">
+        <Provider />
+      </div>
+    </>
   );
 };
 
